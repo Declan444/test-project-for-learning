@@ -89,10 +89,17 @@ nav {
 
 /* Main */
 main {
-    background-color: lightblue;
+
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* Hero section styles*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /*Footer*/
@@ -102,12 +109,13 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    
+
 }
+
 #social-networks i {
-font-size: 160%;
-padding: 5%;
-color: #3a3a3a;
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Media query: tablets and larger (768px and up*/
@@ -140,11 +148,11 @@ color: #3a3a3a;
         margin: 0 0.5rem;
     }
 
-        /* Main content */
-        main {
-            /* Push main content down to accomodate larger header */
-            margin-top: 79px;
-        }
+    /* Main content */
+    main {
+        /* Push main content down to accomodate larger header */
+        margin-top: 79px;
+    }
 }
 
 /* Style sheets for screens greater than 992px*/
@@ -154,4 +162,3 @@ color: #3a3a3a;
     }
 
 }
-
