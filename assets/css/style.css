@@ -171,7 +171,23 @@ main {
     color: #ffffff;
 
 }
+#times {
+    
+    background: url("../images/dublin-city.webp") no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+#times h3{
+    /* Override the heading colour set in general style*/
+    color: #fafafa;
+}
 
+#times div{
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+}
 /*Footer*/
 #social-networks {
     text-align: center;
@@ -250,6 +266,9 @@ main {
         right: 50px;
     }
 }
+
+
+
 
 /* Style sheets for screens greater than 992px*/
 @media screen and (min-width: 992px) {
